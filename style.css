@@ -1,0 +1,245 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+nav{
+    width: 100%;
+    height: 80px;
+    background-color:#fff;
+    box-shadow: 2px 2px 5px;
+    padding-top:5px;
+    z-index: 2;
+}
+ul{
+    width: 100%;
+}
+ nav h1{
+     position: absolute;
+    margin: 15px;
+    margin-left: 45px;
+    letter-spacing: 1px;
+    font-family: 'Lato', sans-serif;
+     font-size: 35px;
+}
+.funny{
+    color: #0D0D0D;
+}
+.bunny{
+    color: #590202;
+    margin-left: 5px;
+}
+.main-link{
+    text-decoration: none;
+}
+nav li{
+    width: 200px;
+    height: 70px;
+    background-color: #262626;
+    margin-left: 1712px;
+    text-align: center;
+    margin-top: 3px;
+    transition: 0.2s;
+}
+nav li a{
+    display:block;
+    width: 200px;
+    height: 70px;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    padding-top: 17px;
+}
+nav li:hover{
+    background-color: crimson;
+    transform: scale(0.9);
+    
+}
+header{
+    width: 100%;
+    height: 850px;
+    background-image: url("background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+
+
+
+div{
+    margin: 5px;
+}
+.container{
+    width: 750px;
+    height: 500px;
+    border: 1px solid;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 70px;
+    justify-content: center;
+    position: relative;
+}
+.container h1{
+    font-size: 35px;
+    text-align: center;
+   margin-bottom: 400px;
+    margin-left: 325px;
+    position: absolute;
+}
+.first-row{
+    display: flex;
+}
+.pavadinimai{
+   padding: 5px;
+}
+.owner{
+    width: 500px;
+    margin-right: 40px;
+}
+.cvv{
+    width: 15%;
+    margin-left: 80px;
+}
+.input-field img{
+    width: 27px;
+    height: 27px;
+    margin: 5px;
+    position: absolute;
+}
+.input-field input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+}
+.selection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.selection select{
+    padding: 10px 20px;
+}
+.card-text{
+    padding: 10px;
+}
+.buy-buttom{
+        width: 87%;
+    background-color: darkgreen;
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 18px;
+    transition:0.2s;
+    margin-top: 50px;
+}
+.buy-buttom:hover{
+    background-color: crimson;
+    color: #fff;
+}
+
+.cards img{
+    width: 100px;
+    height: 63px;
+    margin-right: 10px;
+}
+.cards img:focus{
+    border-radius: 10px;
+    border: 2px solid rgba(122,111,211,1);
+    box-shadow: 0px 0px 0px 1px rgba(122,111,211,1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+font-family: 'Abel', sans-serif;
+font-family: 'Heebo', sans-serif;
+font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Varela Round', sans-serif;*/
